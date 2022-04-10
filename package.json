@@ -12,7 +12,6 @@
     "predeploy": "npm run build && react-snap",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "lint": "eslint src",
     "test": "react-scripts test --watchAll=false",
     "analyze": "npm run build && source-map-explorer build/static/js/*.chunk.js"
   },
@@ -33,8 +32,8 @@
     "react-helmet-async": "^1.0.7",
     "react-markdown": "^5.0.3",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^2.1.3",
-    "react-snap": "^0.2.0",
+    "react-scripts": "^5.0.0",
+    "react-snap": "^1.23.0",
     "rimraf": "^3.0.2"
   },
   "devDependencies": {
@@ -42,6 +41,7 @@
     "@babel/eslint-parser": "^7.17.0",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
+    "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
