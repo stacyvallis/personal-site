@@ -1,47 +1,26 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Digital Transformations for Optimizing the Post-Pandemic Sustainable Smart City',
+    subtitle: 'KTH digital futures',
+    image: '/images/projects/proj1.png',
+    date: '2021-11-20',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Postdoctoral Work at KTH digital futures. '
+      + 'This project draws on the transdisciplinary intersection of architecture with human-computer interaction (HCI) and the shift to human-building interaction (HBI) in querying the ethical implications of spatiotemporally immersive urban spaces. '
+      + 'https://www.digitalfutures.kth.se/research/collaborative-projects/humanizing-the-sustainable-smart-city-hiss/ '
+      + 'https://www.digitalfutures.kth.se/research/postdoc-fellowships/postdoc-project-digital-transformations-for-optimizing-the-post-pandemic-sustainable-smart-city/',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Unreinforced Masonry Precincts in New Zealand: History, Heritage, and Seismic Retrofit',
+    subtitle: 'The University of Auckland',
+    image: '/images/projects/proj2.png',
+    date: '2020-09-20',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'PhD project at The University of Auckland. '
+      + 'Working within international and interdisciplinary research teams consisting of structural engineers, economists, geologists and social scientists; Applications of 3D digital technologies (drone, photogrammetry, geocoding) for rapid, urban-scale assessment '
+      + 'http://www.quakecore.nz/student-profile-stacy-vallis/ '
+      + 'https://www.nzherald.co.nz/whanganui-chronicle/news/heritage-buildings-a-passion-for-researchers/7N3B4DOTPKNS75VVC7PZNEBBJI/',
   },
 ];
 

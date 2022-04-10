@@ -3,194 +3,109 @@
 
 const skills = [
   {
-    title: 'Javascript',
+    title: 'Site Inspection',
     competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Architecture', 'Research'],
   },
   {
-    title: 'Node.JS',
+    title: 'Adobe Creative Suite',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
+    category: ['Architecture', 'Design'],
   },
   {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
+    title: 'Rhinoceros',
     competency: 4,
-    category: ['Web Development', 'Tools'],
+    category: ['Architecture', 'Design'],
   },
   {
-    title: 'Heroku',
-    competency: 2,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'MongoDB',
-    competency: 3,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'PostgreSQL/SQLite3/SQL',
+    title: 'Revit',
     competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
+    category: ['Architecture', 'Design'],
   },
   {
-    title: 'Redis',
+    title: 'AutoCAD',
+    competency: 4,
+    category: ['Architecture', 'Design'],
+  },
+  {
+    title: 'ArchiCAD',
+    competency: 4,
+    category: ['Architecture', 'Design'],
+  },
+  {
+    title: 'ArcMap',
     competency: 3,
-    category: ['Web Development', 'Databases'],
+    category: ['Architecture', 'Design'],
   },
   {
-    title: 'Data Mining',
+    title: 'ArcGIS',
     competency: 3,
-    category: ['Data Science'],
+    category: ['Architecture'],
   },
   {
-    title: 'Express.JS',
+    title: 'SketchUp',
+    competency: 4,
+    category: ['Architecture', 'Design'],
+  },
+  {
+    title: 'Microsoft Office',
+    competency: 5,
+    category: ['Architecture', 'Research'],
+  },
+  {
+    title: 'Agisoft Photoscan',
     competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'D3',
-    competency: 2,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Flask',
-    competency: 2,
-    category: ['Web Development', 'Python'],
-  },
-  {
-    title: 'Git/Mercurial',
-    competency: 3,
-    category: ['Tools'],
-  },
-  {
-    title: 'Kubernetes',
-    competency: 2,
-    category: ['Tools', 'Data Engineering'],
-  },
-  {
-    title: 'Google Cloud Compute',
-    competency: 2,
-    category: ['Tools', 'Web Development'],
-  },
-  {
-    title: 'Numpy',
-    competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Numba',
-    competency: 2,
-    category: ['Data Science', 'Data Engineering', 'Python'],
-  },
-  {
-    title: 'Tensorflow + Keras',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Jupyter',
-    competency: 3,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'Typescript',
-    competency: 2,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'HTML + SASS/SCSS/CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Architecture', 'Research', 'Design'],
   },
   {
     title: 'Python',
-    competency: 5,
-    category: ['Languages', 'Python'],
-  },
-  {
-    title: 'C++',
     competency: 2,
-    category: ['Languages'],
+    category: ['Architecture', 'Languages', 'Research'],
   },
   {
-    title: 'Julia',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'R',
-    competency: 2,
-    category: ['Languages'],
-  },
-  {
-    title: 'Data Visualization',
-    competency: 3,
-    category: ['Data Science', 'Javascript'],
-  },
-  {
-    title: 'GraphQL',
-    competency: 2,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'Pandas',
-    competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Matplotlib',
-    competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
-  },
-  {
-    title: 'Scikit-Learn',
+    title: 'Miro',
     competency: 4,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Pedagogy'],
   },
   {
-    title: 'Hadoop',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
+    title: 'Canvas',
+    competency: 5,
+    category: ['Pedagogy'],
   },
   {
-    title: 'Spark',
-    competency: 2,
-    category: ['Data Engineering', 'Data Science'],
-  },
-  {
-    title: 'Dagster',
-    competency: 2,
-    category: ['Data Engineering', 'Python'],
-  },
-  {
-    title: 'Mypy',
-    competency: 3,
-    category: ['Python'],
-  },
-  {
-    title: 'Pylint',
+    title: 'Google Classroom',
     competency: 4,
-    category: ['Data Engineering', 'Python'],
+    category: ['Pedagogy'],
+  },
+  {
+    title: 'Blended Learning',
+    competency: 4,
+    category: ['Pedagogy'],
+  },
+  {
+    title: 'Reflective Learning activities',
+    competency: 4,
+    category: ['Pedagogy'],
+  },
+  {
+    title: 'Student Supervision',
+    competency: 4,
+    category: ['Pedagogy'],
+  },
+  {
+    title: 'Pre-Documentation',
+    competency: 3,
+    category: ['Architectural Services'],
+  },
+  {
+    title: 'Development Application Documentation',
+    competency: 3,
+    category: ['Architectural Services'],
+  },
+  {
+    title: 'Report Preparation/Advice',
+    competency: 3,
+    category: ['Architectural Services'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
