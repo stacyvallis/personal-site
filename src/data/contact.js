@@ -22,12 +22,7 @@ const data = [
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:vallis@kth.se',
-    label: 'Email',
-    icon: faEnvelope,
-  },
-  {
-    link: 'mailto:sval034@aucklanduni.ac.nz',
+    link: 'mailto:stacy.vallis@aut.ac.nz',
     label: 'Email',
     icon: faEnvelope,
   },

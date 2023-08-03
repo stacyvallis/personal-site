@@ -13,14 +13,15 @@ const SideBar = () => (
       </Link>
       <header>
         <h2>Stacy Vallis</h2>
-        <p><a href="mailto:vallis@kth.se">vallis@kth.se</a></p>
+        <p><a href="mailto:stacy.vallis@aut.ac.nz">stacy.vallis@aut.ac.nz</a></p>
       </header>
     </section>
 
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Stacy!
-        I am a Postdoctoral Fellow at KTH Royal Institute of Technology, Sweden.
+        I am a Lecturer in Architecture and Emerging Technologies
+        at Auckland University of Technology (AUT).
         Please contact me if you are interested in collaborating!
       </p>
       <ul className="actions">
